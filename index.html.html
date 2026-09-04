@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pal Brother's Vastralay | Luxury Fashion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#4b1022;--wine2:#8f2d4b;--dark:#120b10;--cream:#f7f0e9;--gold:#d2ad68;--gold2:#f0d39a;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans",sans-serif;background:var(--cream);color:var(--dark);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-3;background:url("https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1800&q=85") center/cover fixed;opacity:.07}
+body:after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(135deg,#fffaf6e8,#f1e1d4e8);pointer-events:none}
+nav{position:sticky;top:0;z-index:50;background:#120b10e8;color:#fff;backdrop-filter:blur(18px);display:flex;justify-content:space-between;align-items:center;padding:17px 7%;box-shadow:0 8px 30px #0005;border-bottom:1px solid #d2ad6833}
+.logo{font-family:"Playfair Display",serif;font-size:25px;color:var(--gold2);font-weight:800;letter-spacing:.2px}
+nav a{color:#fff;text-decoration:none;margin-left:25px;font-weight:600;font-size:14px;opacity:.9}nav a:hover{color:var(--gold2)}
+.hero{min-height:88vh;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:45px;padding:75px 7%;position:relative;overflow:hidden;background:linear-gradient(110deg,#160b11f5,#3c1022d9),url("https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1800&q=85") center/cover}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 30%,#d2ad6840,transparent 30%),radial-gradient(circle at 10% 90%,#8f2d4b55,transparent 28%)}
+.hero>*{position:relative;z-index:1}
+.tag{display:inline-block;color:var(--gold2);border:1px solid #d2ad6870;background:#fff1;padding:9px 15px;border-radius:30px;font-size:13px;font-weight:700;margin-bottom:20px;backdrop-filter:blur(10px)}
+h1{font-family:"Playfair Display",serif;font-size:clamp(44px,6vw,78px);line-height:1.04;color:#fff;margin-bottom:20px}
+h1 span{color:var(--gold2);position:relative}
+h1 span:after{content:"";position:absolute;left:0;right:15%;bottom:-7px;height:2px;background:var(--gold)}
+.hero p{font-size:18px;max-width:570px;color:#f3e7df;margin-bottom:30px;line-height:1.7}
+.btn{display:inline-block;background:linear-gradient(135deg,#b8873e,#efd29a);color:#251015;text-decoration:none;padding:15px 25px;border-radius:10px;font-weight:800;box-shadow:0 12px 35px #0007;transition:.25s}.btn:hover{transform:translateY(-3px)}
+.hero-img{height:575px;border-radius:30px;overflow:hidden;box-shadow:0 30px 80px #0009;border:1px solid #d2ad6860;position:relative}
+.hero-img img{width:100%;height:100%;object-fit:cover}
+.hero-img:after{content:"PAL BROTHER'S VASTRALAY";position:absolute;left:20px;bottom:20px;background:#120b10cc;color:#fff;padding:11px 17px;border-radius:30px;font-size:13px;backdrop-filter:blur(10px);border:1px solid #d2ad6855}
+.strip{background:linear-gradient(90deg,#3d0d1c,#7c223d,#3d0d1c);color:#fff;text-align:center;padding:14px 18px;font-weight:700;letter-spacing:.5px}
+section{padding:95px 7%;position:relative}
+.section-head{text-align:center;max-width:760px;margin:0 auto 48px}
+.section-head h2{font-family:"Playfair Display",serif;font-size:46px;color:var(--wine);margin-bottom:10px}
+.section-head p{color:#6e6363}.section-head h2:after{content:"";display:block;width:60px;height:3px;background:var(--gold);margin:14px auto 0;border-radius:5px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;max-width:1200px;margin:auto}
+.card{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 16px 45px #00000015;border:1px solid #e6d7cb;transition:.3s;cursor:pointer;position:relative}
+.card:hover{transform:translateY(-9px);box-shadow:0 25px 60px #00000025}
+.card img{width:100%;height:330px;object-fit:cover;transition:.5s}.card:hover img{transform:scale(1.06)}
+.card-body{padding:22px}.eyebrow{font-size:11px;color:#a37a3e;font-weight:800;letter-spacing:1.7px;margin-bottom:6px}.card h3{font-family:"Playfair Display",serif;font-size:25px;color:var(--wine);margin-bottom:7px}.card p{color:#74696a;font-size:14px}
+.card-badge{position:absolute;top:16px;left:16px;background:#120b10d9;color:#f2d59d;padding:7px 11px;border-radius:20px;font-size:11px;font-weight:700;backdrop-filter:blur(8px)}
+.feature{background:linear-gradient(110deg,#fff,#f4e6dc)}
+.feature-grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.feature-card{padding:28px 20px;background:#ffffffcc;border:1px solid #e6d7cb;border-radius:18px;text-align:center;box-shadow:0 12px 30px #0000000b}.feature-card .icon{font-size:31px;margin-bottom:10px}.feature-card h3{font-size:17px;color:var(--wine);margin-bottom:5px}.feature-card p{font-size:13px;color:#74696a}
+.about{background:#fff}
+.about-box{max-width:1150px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about-img{height:480px;border-radius:26px;overflow:hidden;box-shadow:0 25px 55px #0002}.about-img img{width:100%;height:100%;object-fit:cover}
+.about h2{font-family:"Playfair Display",serif;font-size:44px;color:var(--wine);margin-bottom:18px}.about p{color:#655b5c;line-height:1.9}
+.info{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;max-width:850px;margin:auto}
+.info-card{background:#fff;padding:34px;border-radius:20px;text-align:center;box-shadow:0 14px 35px #00000012;border:1px solid #e6d7cb}.info-card .icon{font-size:34px;margin-bottom:9px}.info-card h3{color:var(--wine);margin-bottom:6px}
+footer{background:#120b10;color:#eee;text-align:center;padding:35px 20px;border-top:1px solid #d2ad6838}footer strong{color:#e4c79e}
+.gallery-modal{display:none;position:fixed;inset:0;background:#10080edF;z-index:100;padding:22px;overflow:auto}.gallery-modal.show{display:flex;align-items:center;justify-content:center}
+.gallery-box{width:min(1180px,100%);max-height:92vh;overflow:auto;background:linear-gradient(145deg,#fffaf6,#f4e7dc);border-radius:26px;padding:28px;position:relative;box-shadow:0 35px 100px #0009;border:1px solid #d2ad6860}
+.gallery-box h2{font-family:"Playfair Display",serif;color:var(--wine);font-size:34px;margin-bottom:22px}
+.gallery-close{position:absolute;right:18px;top:15px;border:0;background:#eadbd1;width:42px;height:42px;border-radius:50%;font-size:25px;cursor:pointer}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.gallery-grid figure{margin:0}.gallery-grid img{width:100%;height:260px;object-fit:cover;border-radius:15px;cursor:pointer;transition:.25s;box-shadow:0 8px 22px #0001}.gallery-grid img:hover{transform:scale(1.025)}
+.gallery-grid figcaption{font-size:12px;color:#6d5d60;margin-top:7px;text-align:center;font-weight:700}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-img{height:430px}.cards{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr 1fr}.about-box{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){nav{padding:14px 5%}.logo{font-size:20px}nav a{margin-left:9px;font-size:11px}.hero{padding:55px 6%}.hero-img{height:360px}section{padding:70px 6%}.section-head h2{font-size:38px}.feature-grid,.info{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr}.gallery-grid img{height:280px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Pal Brother's Vastralay</div>
+  <div><a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About</a><a href="#timing">Visit</a></div>
+</nav>
+
+<header class="hero" id="home">
+  <div>
+    <div class="tag">LUXURY CLOTHING • PREMIUM COLLECTION</div>
+    <h1>हर अंदाज़ के लिए <span>बेहतरीन कपड़े</span></h1>
+    <p>Pal Brother's Vastralay में Men, Women और Kids के लिए stylish और शानदार कपड़ों की विविध collection देखें।</p>
+    <a class="btn" href="#collection">Explore Collection ↓</a>
+  </div>
+  <div class="hero-img"><img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1200&q=90" alt="Luxury fashion clothing"></div>
+</header>
+
+<div class="strip">✦ ELEGANCE • STYLE • QUALITY ✦ &nbsp; | &nbsp; नई Collection और शानदार Selection</div>
+
+<section id="collection">
+  <div class="section-head"><h2>Our Luxury Collection</h2><p>Category पर क्लिक करें और अंदर पूरी photo gallery देखें — हर collection में कई अलग-अलग looks.</p></div>
+  <div class="cards">
+    <article class="card" onclick="openGallery('men')">
+      <span class="card-badge">MEN • PREMIUM</span>
+      <img src="https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=1000&q=90" alt="Men's Wear">
+      <div class="card-body"><div class="eyebrow">PREMIUM COLLECTION</div><h3>Men's Wear ↗</h3><p>Shirts, suits, jackets और stylish outfits की gallery देखें.</p></div>
+    </article>
+    <article class="card" onclick="openGallery('women')">
+      <span class="card-badge">WOMEN • PREMIUM</span>
+      <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=90" alt="Women's Wear">
+      <div class="card-body"><div class="eyebrow">PREMIUM COLLECTION</div><h3>Women's Wear ↗</h3><p>Elegant dresses, ethnic looks और fashion styles देखें.</p></div>
+    </article>
+    <article class="card" onclick="openGallery('kids')">
+      <span class="card-badge">KIDS • PREMIUM</span>
+      <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1000&q=90" alt="Kids Wear">
+      <div class="card-body"><div class="eyebrow">PREMIUM COLLECTION</div><h3>Kids Wear ↗</h3><p>Kids के लिए cute, comfortable और stylish looks देखें.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="feature">
+  <div class="section-head"><h2>Why Visit Us?</h2><p>एक ही जगह पर family fashion के लिए शानदार variety.</p></div>
+  <div class="feature-grid">
+    <div class="feature-card"><div class="icon">✦</div><h3>Premium Style</h3><p>Modern और elegant fashion selection.</p></div>
+    <div class="feature-card"><div class="icon">♢</div><h3>Wide Variety</h3><p>Men, Women और Kids के लिए options.</p></div>
+    <div class="feature-card"><div class="icon">✧</div><h3>Family Collection</h3><p>पूरे परिवार के लिए कपड़ों की range.</p></div>
+    <div class="feature-card"><div class="icon">♡</div><h3>Easy Visit</h3><p>सुबह 9 से रात 9 बजे तक खुले हैं.</p></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-box">
+    <div class="about-img"><img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1200&q=90" alt="Luxury clothing"></div>
+    <div><div class="eyebrow">THE HOUSE OF STYLE</div><h2>Pal Brother's Vastralay</h2><p>हमारी दुकान का उद्देश्य ग्राहकों को कपड़ों की अच्छी variety एक ही जगह पर उपलब्ध कराना है। इस website पर आप हमारी collections और दुकान की basic information आसानी से देख सकते हैं।</p></div>
+  </div>
+</section>
+
+<section id="timing">
+  <div class="section-head"><h2>Visit Our Store</h2><p>आपका स्वागत है — दुकान पर आकर collection देखें.</p></div>
+  <div class="info">
+    <div class="info-card"><div class="icon">📍</div><h3>Our Address</h3><p>Belwa Senger,<br>Sant Kabir Nagar, Uttar Pradesh</p></div>
+    <div class="info-card"><div class="icon">🕘</div><h3>Opening Hours</h3><p>सुबह 9:00 बजे से रात 9:00 बजे तक</p></div>
+  </div>
+</section>
+
+<footer><p>© 2026 <strong>Pal Brother's Vastralay</strong> · Luxury Clothing Collection</p></footer>
+
+<div class="gallery-modal" id="galleryModal" onclick="closeOnBackdrop(event)">
+  <div class="gallery-box">
+    <button class="gallery-close" onclick="closeGallery()" aria-label="Close">×</button>
+    <h2 id="galleryTitle">Collection</h2>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</div>
+
+<script>
+const galleries={
+men:{title:"Men's Luxury Collection",images:[
+["https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=1000&q=90","Smart Formal"],
+["https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=90","Modern Look"],
+["https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1000&q=90","Classic Style"],
+["https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=1000&q=90","Premium Outfit"],
+["https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=1000&q=90","Shirt Collection"],
+["https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=1000&q=90","Luxury Casual"],
+["https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=1000&q=90","Jacket Style"],
+["https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1000&q=90","Fabric Detail"]
+]},
+women:{title:"Women's Luxury Collection",images:[
+["https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=90","Elegant Fashion"],
+["https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=90","Premium Style"],
+["https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=1000&q=90","Classic Look"],
+["https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=90","Fashion Collection"],
+["https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=90","Elegant Dress"],
+["https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=90","Luxury Look"],
+["https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=90","Modern Wear"],
+["https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=90","Premium Fabric"]
+]},
+kids:{title:"Kids Luxury Collection",images:[
+["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1000&q=90","Cute Style"],
+["https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1000&q=90","Kids Fashion"],
+["https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=1000&q=90","Smart Look"],
+["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=1000&q=90","Playful Wear"],
+["https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=1000&q=90","Kids Collection"],
+["https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=1000&q=90","Family Style"],
+["https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=1000&q=90","Festive Look"],
+["https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1000&q=90","Everyday Style"]
+]}};
+
+function openGallery(type){
+ const data=galleries[type];
+ document.getElementById("galleryTitle").textContent=data.title;
+ document.getElementById("galleryGrid").innerHTML=data.images.map(x=>`<figure><img src="${x[0]}" alt="${x[1]}" loading="lazy"><figcaption>${x[1]}</figcaption></figure>`).join("");
+ document.getElementById("galleryModal").classList.add("show");document.body.style.overflow="hidden";
+}
+function closeGallery(){document.getElementById("galleryModal").classList.remove("show");document.body.style.overflow=""}
+function closeOnBackdrop(e){if(e.target.id==="galleryModal")closeGallery()}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeGallery()});
+</script>
+</body>
+</html>
